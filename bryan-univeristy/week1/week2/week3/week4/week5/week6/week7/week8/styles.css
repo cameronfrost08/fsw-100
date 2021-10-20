@@ -1,0 +1,64 @@
+.nav-bar{
+    position: fixed;
+    width: 100%;
+    margin: 10px;
+    background-color: rgb(55,44,22,.4);
+
+}
+.about {
+    position: relative;
+    left: 315px
+}
+.menu{
+    position: relative;
+    left: 150px;
+}
+
+#container{
+    width: 400px;
+}
+
+.football{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    width: 200px;
+    height: 150px;
+
+}
+.golf{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    width: 200px;
+    height: 150px;
+}
+.nascar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    width: 200px;
+    height: 150px;
+
+}
+#fb-title{
+margin-right: 10px;
+    padding-right: 720px;
+}
+#fb-date{
+
+
+}
+
+img {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+p {
+    text-align: justify;
+    text-indent: 2em;
+}
