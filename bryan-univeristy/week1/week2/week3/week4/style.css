@@ -1,0 +1,87 @@
+.nav-bar{
+    position: fixed;
+    width: 100%;
+    margin: 10px;
+    background-color: rgb(55,44,22,.4);
+
+}
+.about {
+    position: relative;
+    left: 315px
+}
+.menu{
+    position: relative;
+    left: 150px;
+}
+.cupcake{
+    height: 400px;
+    width: 250px;
+   
+}
+.chip{
+    height: 500px;
+    width: 350px;
+    
+
+}
+.bread{
+    height: 400px;
+    width: 250px;
+    
+    
+}
+#head1{
+   
+   text-align: center;
+   margin-left: 400px;
+   width: 50%;
+   border:3px black;
+   padding: 10px
+    
+}
+#foot{
+    background-color: cadetblue;
+    text-align: center;
+    color: whitesmoke;
+}
+body{
+    background-color: steelblue;
+}
+#list{
+    border: black;
+  border: 1px;
+  padding: 20px;
+}
+#break{
+    font-size: 20px;
+    margin-right: 400px;
+    
+}
+#cup{
+    font-size: 20px;
+}
+#top{
+    font-size: 20px;
+}
+
+#list{
+    margin-left: 1200px;
+    margin-top: 1px;
+}
+.owner{
+    float: right;
+    height: 300px;
+    width: 400px;
+}
+#jen{
+    float: right;
+}
+.Ally{
+    float: right;
+    height: 300px;
+    width: 400px;
+}
+#EOM{
+    float: right;
+}
+
