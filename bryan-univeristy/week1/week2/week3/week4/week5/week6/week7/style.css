@@ -1,0 +1,347 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(236, 236, 236);
+    font-family: 'poppins';
+}
+
+
+/* Login Page and Sign up Page */
+
+.form {
+    display: block;
+    width: 350px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(216, 216, 216);
+    text-align: center;
+    padding: 30px 20px;
+    display: none;
+}
+
+.form input[type='text'],
+.form input[type='password'],
+.form input[type='email'] {
+    padding: 8px;
+    width: 270px;
+    outline: none;
+    margin-bottom: 30px;
+}
+
+.form input[type='submit'] {
+    padding: 12px 35px;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(131, 74, 21);
+    cursor: pointer;
+    border: none;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.form .sign-btn:hover {
+    background-color: rgb(70, 39, 10);
+}
+
+#message {
+    color: red;
+}
+
+
+/* Home Page */
+
+.banner ul {
+    margin: 0;
+    padding: 20px;
+    background-color: transparent;
+    list-style: none;
+}
+
+.banner ul a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(167, 90, 18);
+    margin: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(53, 53, 53);
+    box-shadow: 10px 10px 5px rgb(216, 216, 216);
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav li a:hover:not(.active) {
+    color: white !;
+    background-color: rgb(131, 74, 21);
+}
+
+.active {
+    color: white;
+    background-color: rgb(131, 74, 21);
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/coffee.jpg");
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.banner-text h1 {
+    font-size: 300%;
+    color: white;
+    font-weight: 700;
+}
+
+.about {
+    text-align: center;
+    margin: 50px;
+}
+
+.inner-about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin: 30px 50px;
+}
+
+.about-img img {
+    width: 100%;
+    height: auto;
+}
+
+.about-text {
+    padding-top: 10px;
+}
+
+.about-text p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.order-btn {
+    display: block;
+    text-decoration: none;
+    padding: 12px 35px;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(131, 74, 21);
+    cursor: pointer;
+    border: none;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.order-btn:hover {
+    background-color: rgb(75, 41, 9);
+}
+
+.quote {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/coffee-quote.jpg");
+    height: 70vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.quote-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.quote-text q {
+    font-size: 300%;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+
+footer {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* Order Page */
+
+.menu-coffee {
+    margin: 50px;
+    text-align: center;
+}
+
+.inner-coffee {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.inner-coffee div img {
+    width: 100%;
+    height: auto;
+}
+
+.inner-coffee h2 {
+    height: 100px;
+}
+
+.orderc-btn {
+    display: block;
+    text-decoration: none;
+    padding: 12px 35px;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(131, 74, 21);
+    cursor: pointer;
+    border: none;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.orderc-btn:hover {
+    background-color: rgb(71, 41, 12);
+}
+
+.menu-coffee-text {
+    padding-top: 200px;
+}
+
+
+/* Order Coffee */
+
+.manage {
+    margin: 50px;
+    text-align: center;
+}
+
+.inner-manage {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 20px;
+}
+
+.inner-manage div img {
+    width: 100%;
+    height: auto;
+}
+
+.order-form {
+    display: block;
+    width: 350px;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(216, 216, 216);
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.order-form input,
+.order-form select,
+.order-form a {
+    margin: 10px;
+}
+
+#num {
+    padding: 8px;
+    width: 270px;
+    outline: none;
+}
+
+#type {
+    padding: 8px;
+    width: 290px;
+    outline: none;
+}
+
+#order-now {
+    text-decoration: none;
+    padding: 12px 35px;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(8, 8, 49);
+    cursor: pointer;
+    border: none;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#order-now:hover {
+    background-color: blue;
+}
+
+.order-div {
+    display: block;
+    margin-top: 40px;
+}
+
+
+/* Order History */
+
+.order-history {
+    margin: 50px;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+}
+
+table tr:nth-child(odd) {
+    background-color: white;
+}
+
+td,
+th {
+    padding: 20px;
+}
+
+tr:hover {
+    background-color: rgb(139, 108, 21) !important;
+    color: white;
+    cursor: pointer;
+}
